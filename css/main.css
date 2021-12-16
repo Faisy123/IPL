@@ -8,6 +8,18 @@ header img
     float: left;
 }
 
+header h2
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 20px;
+}
+
+header h4
+{
+    font-style: normal;
+    color: black;
+}
+
 footer
 {
     text-align: center;
@@ -19,12 +31,45 @@ body
     margin: 50px;
 }
 
+
+/****************************MAIN********************/
+
 main
 {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     clear: both;
-    color: red;
+    color: green;
 }
 
+.navigation
+{
+    overflow: hidden;
+    background-color: rgb(83, 83, 223);
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+.navigation a
+{
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navigation a:hover
+{
+    background-color: rgb(57, 21, 187);
+    color: rgb(241, 28, 28);
+}
+
+.mainlogo
+{
+    background-image: url(../Images/main_page_logo.png);
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}

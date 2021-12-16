@@ -1,0 +1,7 @@
+.stadium
+{
+    background-image: url(../Images/stadium.png);
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+}

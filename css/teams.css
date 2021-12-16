@@ -1,0 +1,8 @@
+.teamslogo
+{
+    background-image: url(../Images/teams_image.jpg);
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
